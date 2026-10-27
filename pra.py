@@ -4,4 +4,5 @@ def show(n):
     print(n)
     show(n-1)
     print("End")
+    print(" ")
 show(5)
