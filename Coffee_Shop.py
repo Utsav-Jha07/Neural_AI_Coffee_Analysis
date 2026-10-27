@@ -44,7 +44,7 @@ print(f"Standard deviation: {np.std(sales):.2f}")
 print(f"90th percentile sale: {np.percentile(sales, 90):.2f}")
 
 # Business questions
-print("\n--- Business insights ---")
+print("\nBusiness insights ")
 
 revenue_by_product = df.groupby("product")["Total_Sales"].sum().sort_values(ascending=False)
 print(f"Product with maximum revenue: {revenue_by_product.idxmax()}")
